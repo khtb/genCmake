@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/workset/genCmake/project/src/file1.c
+
+D:/workset/genCmake/project/src/main.c
+stdio.h
+D:/workset/genCmake/project/src/stdio.h
+

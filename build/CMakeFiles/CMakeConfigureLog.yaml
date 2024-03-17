@@ -250,7 +250,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        D:/workset/genCmake/CMakeFiles/3.29.0-rc4/CompilerIdCXX/a.exe
+        D:/workset/genCmake/build/CMakeFiles/3.29.0-rc4/CompilerIdCXX/a.exe
       
   -
     kind: "try_compile-v1"
@@ -261,8 +261,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/workset/genCmake/CMakeFiles/CMakeScratch/TryCompile-aa5bmq"
-      binary: "D:/workset/genCmake/CMakeFiles/CMakeScratch/TryCompile-aa5bmq"
+      source: "D:/workset/genCmake/build/CMakeFiles/CMakeScratch/TryCompile-h8sr4s"
+      binary: "D:/workset/genCmake/build/CMakeFiles/CMakeScratch/TryCompile-h8sr4s"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -270,16 +270,16 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/workset/genCmake/CMakeFiles/CMakeScratch/TryCompile-aa5bmq'
+        Change Dir: 'D:/workset/genCmake/build/CMakeFiles/CMakeScratch/TryCompile-h8sr4s'
         
-        Run Build Command(s): D:/Tools/CMake/bin/cmake.exe -E env VERBOSE=1 D:/Tools/cygwin64/bin/make.exe -f Makefile cmTC_ec954/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_ec954.dir/build.make CMakeFiles/cmTC_ec954.dir/build
-        make[1]: Entering directory '/cygdrive/d/workset/genCmake/CMakeFiles/CMakeScratch/TryCompile-aa5bmq'
-        Building C object CMakeFiles/cmTC_ec954.dir/CMakeCCompilerABI.c.obj
-        D:/Tools/cygwin64/bin/cc    -o CMakeFiles/cmTC_ec954.dir/CMakeCCompilerABI.c.obj -c D:/Tools/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c
-        Linking C executable cmTC_ec954.exe
-        D:/Tools/cygwin64/bin/cc "CMakeFiles/cmTC_ec954.dir/CMakeCCompilerABI.c.obj"  -o cmTC_ec954.exe
-        make[1]: Leaving directory '/cygdrive/d/workset/genCmake/CMakeFiles/CMakeScratch/TryCompile-aa5bmq'
+        Run Build Command(s): D:/Tools/CMake/bin/cmake.exe -E env VERBOSE=1 D:/Tools/cygwin64/bin/make.exe -f Makefile cmTC_55b5b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_55b5b.dir/build.make CMakeFiles/cmTC_55b5b.dir/build
+        make[1]: Entering directory '/cygdrive/d/workset/genCmake/build/CMakeFiles/CMakeScratch/TryCompile-h8sr4s'
+        Building C object CMakeFiles/cmTC_55b5b.dir/CMakeCCompilerABI.c.obj
+        D:/Tools/cygwin64/bin/cc    -o CMakeFiles/cmTC_55b5b.dir/CMakeCCompilerABI.c.obj -c D:/Tools/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Linking C executable cmTC_55b5b.exe
+        D:/Tools/cygwin64/bin/cc "CMakeFiles/cmTC_55b5b.dir/CMakeCCompilerABI.c.obj"  -o cmTC_55b5b.exe
+        make[1]: Leaving directory '/cygdrive/d/workset/genCmake/build/CMakeFiles/CMakeScratch/TryCompile-h8sr4s'
         
       exitCode: 0
   -
@@ -307,8 +307,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/workset/genCmake/CMakeFiles/CMakeScratch/TryCompile-5tpyca"
-      binary: "D:/workset/genCmake/CMakeFiles/CMakeScratch/TryCompile-5tpyca"
+      source: "D:/workset/genCmake/build/CMakeFiles/CMakeScratch/TryCompile-cqy1lp"
+      binary: "D:/workset/genCmake/build/CMakeFiles/CMakeScratch/TryCompile-cqy1lp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -316,13 +316,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/workset/genCmake/CMakeFiles/CMakeScratch/TryCompile-5tpyca'
+        Change Dir: 'D:/workset/genCmake/build/CMakeFiles/CMakeScratch/TryCompile-cqy1lp'
         
-        Run Build Command(s): D:/Tools/CMake/bin/cmake.exe -E env VERBOSE=1 D:/Tools/cygwin64/bin/make.exe -f Makefile cmTC_ae65a/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_ae65a.dir/build.make CMakeFiles/cmTC_ae65a.dir/build
-        make[1]: Entering directory '/cygdrive/d/workset/genCmake/CMakeFiles/CMakeScratch/TryCompile-5tpyca'
-        Building CXX object CMakeFiles/cmTC_ae65a.dir/CMakeCXXCompilerABI.cpp.obj
-        D:/Tools/cygwin64/bin/c++.exe   -v -o CMakeFiles/cmTC_ae65a.dir/CMakeCXXCompilerABI.cpp.obj -c D:/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): D:/Tools/CMake/bin/cmake.exe -E env VERBOSE=1 D:/Tools/cygwin64/bin/make.exe -f Makefile cmTC_c554d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c554d.dir/build.make CMakeFiles/cmTC_c554d.dir/build
+        make[1]: Entering directory '/cygdrive/d/workset/genCmake/build/CMakeFiles/CMakeScratch/TryCompile-cqy1lp'
+        Building CXX object CMakeFiles/cmTC_c554d.dir/CMakeCXXCompilerABI.cpp.obj
+        D:/Tools/cygwin64/bin/c++.exe   -v -o CMakeFiles/cmTC_c554d.dir/CMakeCXXCompilerABI.cpp.obj -c D:/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=D:/Tools/cygwin64/bin/c++
         Target: x86_64-pc-cygwin
@@ -330,8 +330,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 10.2.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ae65a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         /usr/lib/gcc/x86_64-pc-cygwin/10/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api D:/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ae65a.dir/CMakeCXXCompilerABI.cpp.obj -version -o /cygdrive/c/Users/khattab/AppData/Local/Temp/cc4cvOXr.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c554d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-pc-cygwin/10/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api D:/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c554d.dir/CMakeCXXCompilerABI.cpp.obj -version -o /cygdrive/c/Users/khattab/AppData/Local/Temp/ccubEFQB.s
         GNU C++14 (GCC) version 10.2.0 (x86_64-pc-cygwin)
         	compiled by GNU C version 10.2.0, GMP version 6.2.0, MPFR version 4.1.0, MPC version 1.1.0, isl version isl-0.22.1-GMP
         
@@ -358,16 +358,16 @@ events:
         warning: MPC header version 1.1.0 differs from library version 1.2.1.
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 91598a8452df03f30a560d5af0d56f5c
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ae65a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_ae65a.dir/CMakeCXXCompilerABI.cpp.obj /cygdrive/c/Users/khattab/AppData/Local/Temp/cc4cvOXr.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c554d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_c554d.dir/CMakeCXXCompilerABI.cpp.obj /cygdrive/c/Users/khattab/AppData/Local/Temp/ccubEFQB.s
         GNU assembler version 2.36.1 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.36.1
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ae65a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-        Linking CXX executable cmTC_ae65a.exe
-        D:/Tools/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_ae65a.dir/objects.a
-        D:/Tools/cygwin64/bin/ar.exe qc CMakeFiles/cmTC_ae65a.dir/objects.a @CMakeFiles/cmTC_ae65a.dir/objects1.rsp
-        D:/Tools/cygwin64/bin/c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_ae65a.dir/objects.a -Wl,--no-whole-archive -o cmTC_ae65a.exe -Wl,--out-implib,libcmTC_ae65a.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c554d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_c554d.exe
+        D:/Tools/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_c554d.dir/objects.a
+        D:/Tools/cygwin64/bin/ar.exe qc CMakeFiles/cmTC_c554d.dir/objects.a @CMakeFiles/cmTC_c554d.dir/objects1.rsp
+        D:/Tools/cygwin64/bin/c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_c554d.dir/objects.a -Wl,--no-whole-archive -o cmTC_c554d.exe -Wl,--out-implib,libcmTC_c554d.dll.a -Wl,--major-image-version,0,--minor-image-version,0
         Using built-in specs.
         COLLECT_GCC=D:/Tools/cygwin64/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe
@@ -378,13 +378,13 @@ events:
         gcc version 10.2.0 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ae65a.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/khattab/AppData/Local/Temp/ccP81I67.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_ae65a.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. -v --whole-archive CMakeFiles/cmTC_ae65a.dir/objects.a --no-whole-archive --out-implib libcmTC_ae65a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c554d.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/khattab/AppData/Local/Temp/ccmf2x86.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_c554d.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. -v --whole-archive CMakeFiles/cmTC_c554d.dir/objects.a --no-whole-archive --out-implib libcmTC_c554d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o
         collect2 version 10.2.0
-        /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/ld -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/khattab/AppData/Local/Temp/ccP81I67.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_ae65a.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. -v --whole-archive CMakeFiles/cmTC_ae65a.dir/objects.a --no-whole-archive --out-implib libcmTC_ae65a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o
+        /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/ld -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/khattab/AppData/Local/Temp/ccmf2x86.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_c554d.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. -v --whole-archive CMakeFiles/cmTC_c554d.dir/objects.a --no-whole-archive --out-implib libcmTC_c554d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o
         GNU ld (GNU Binutils) 2.36.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ae65a.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-        make[1]: Leaving directory '/cygdrive/d/workset/genCmake/CMakeFiles/CMakeScratch/TryCompile-5tpyca'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c554d.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        make[1]: Leaving directory '/cygdrive/d/workset/genCmake/build/CMakeFiles/CMakeScratch/TryCompile-cqy1lp'
         
       exitCode: 0
   -
@@ -423,13 +423,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'D:/workset/genCmake/CMakeFiles/CMakeScratch/TryCompile-5tpyca']
+        ignore line: [Change Dir: 'D:/workset/genCmake/build/CMakeFiles/CMakeScratch/TryCompile-cqy1lp']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/Tools/CMake/bin/cmake.exe -E env VERBOSE=1 D:/Tools/cygwin64/bin/make.exe -f Makefile cmTC_ae65a/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_ae65a.dir/build.make CMakeFiles/cmTC_ae65a.dir/build]
-        ignore line: [make[1]: Entering directory '/cygdrive/d/workset/genCmake/CMakeFiles/CMakeScratch/TryCompile-5tpyca']
-        ignore line: [Building CXX object CMakeFiles/cmTC_ae65a.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [D:/Tools/cygwin64/bin/c++.exe   -v -o CMakeFiles/cmTC_ae65a.dir/CMakeCXXCompilerABI.cpp.obj -c D:/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): D:/Tools/CMake/bin/cmake.exe -E env VERBOSE=1 D:/Tools/cygwin64/bin/make.exe -f Makefile cmTC_c554d/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_c554d.dir/build.make CMakeFiles/cmTC_c554d.dir/build]
+        ignore line: [make[1]: Entering directory '/cygdrive/d/workset/genCmake/build/CMakeFiles/CMakeScratch/TryCompile-cqy1lp']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c554d.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:/Tools/cygwin64/bin/c++.exe   -v -o CMakeFiles/cmTC_c554d.dir/CMakeCXXCompilerABI.cpp.obj -c D:/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:/Tools/cygwin64/bin/c++]
         ignore line: [Target: x86_64-pc-cygwin]
@@ -437,8 +437,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 10.2.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ae65a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api D:/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ae65a.dir/CMakeCXXCompilerABI.cpp.obj -version -o /cygdrive/c/Users/khattab/AppData/Local/Temp/cc4cvOXr.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c554d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api D:/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c554d.dir/CMakeCXXCompilerABI.cpp.obj -version -o /cygdrive/c/Users/khattab/AppData/Local/Temp/ccubEFQB.s]
         ignore line: [GNU C++14 (GCC) version 10.2.0 (x86_64-pc-cygwin)]
         ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.2.0  MPFR version 4.1.0  MPC version 1.1.0  isl version isl-0.22.1-GMP]
         ignore line: []
@@ -465,16 +465,16 @@ events:
         ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.1.]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 91598a8452df03f30a560d5af0d56f5c]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ae65a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_ae65a.dir/CMakeCXXCompilerABI.cpp.obj /cygdrive/c/Users/khattab/AppData/Local/Temp/cc4cvOXr.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c554d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_c554d.dir/CMakeCXXCompilerABI.cpp.obj /cygdrive/c/Users/khattab/AppData/Local/Temp/ccubEFQB.s]
         ignore line: [GNU assembler version 2.36.1 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.36.1]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ae65a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [Linking CXX executable cmTC_ae65a.exe]
-        ignore line: [D:/Tools/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_ae65a.dir/objects.a]
-        ignore line: [D:/Tools/cygwin64/bin/ar.exe qc CMakeFiles/cmTC_ae65a.dir/objects.a @CMakeFiles/cmTC_ae65a.dir/objects1.rsp]
-        ignore line: [D:/Tools/cygwin64/bin/c++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_ae65a.dir/objects.a -Wl --no-whole-archive -o cmTC_ae65a.exe -Wl --out-implib libcmTC_ae65a.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c554d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_c554d.exe]
+        ignore line: [D:/Tools/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_c554d.dir/objects.a]
+        ignore line: [D:/Tools/cygwin64/bin/ar.exe qc CMakeFiles/cmTC_c554d.dir/objects.a @CMakeFiles/cmTC_c554d.dir/objects1.rsp]
+        ignore line: [D:/Tools/cygwin64/bin/c++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_c554d.dir/objects.a -Wl --no-whole-archive -o cmTC_c554d.exe -Wl --out-implib libcmTC_c554d.dll.a -Wl --major-image-version 0 --minor-image-version 0]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:/Tools/cygwin64/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe]
@@ -485,13 +485,13 @@ events:
         ignore line: [gcc version 10.2.0 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ae65a.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        link line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/khattab/AppData/Local/Temp/ccP81I67.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_ae65a.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. -v --whole-archive CMakeFiles/cmTC_ae65a.dir/objects.a --no-whole-archive --out-implib libcmTC_ae65a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c554d.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/khattab/AppData/Local/Temp/ccmf2x86.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_c554d.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. -v --whole-archive CMakeFiles/cmTC_c554d.dir/objects.a --no-whole-archive --out-implib libcmTC_c554d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o]
           arg [/usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=/cygdrive/c/Users/khattab/AppData/Local/Temp/ccP81I67.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/cygdrive/c/Users/khattab/AppData/Local/Temp/ccmf2x86.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lcygwin] ==> ignore
@@ -524,7 +524,7 @@ events:
           arg [--dll-search-prefix=cyg] ==> ignore
           arg [--tsaware] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_ae65a.exe] ==> ignore
+          arg [cmTC_c554d.exe] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o] ==> obj [/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o]
           arg [/usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o]
           arg [-L/usr/lib/gcc/x86_64-pc-cygwin/10] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/10]
@@ -536,10 +536,10 @@ events:
           arg [-L/usr/lib/gcc/x86_64-pc-cygwin/10/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/10/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles/cmTC_ae65a.dir/objects.a] ==> ignore
+          arg [CMakeFiles/cmTC_c554d.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_ae65a.dll.a] ==> ignore
+          arg [libcmTC_c554d.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -557,7 +557,7 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o] ==> obj [/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o]
           arg [/usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o] ==> obj [/usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o]
         ignore line: [collect2 version 10.2.0]
-        ignore line: [/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/ld -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/khattab/AppData/Local/Temp/ccP81I67.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_ae65a.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. -v --whole-archive CMakeFiles/cmTC_ae65a.dir/objects.a --no-whole-archive --out-implib libcmTC_ae65a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o]
+        ignore line: [/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/ld -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/khattab/AppData/Local/Temp/ccmf2x86.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_c554d.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. -v --whole-archive CMakeFiles/cmTC_c554d.dir/objects.a --no-whole-archive --out-implib libcmTC_c554d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o]
         linker tool for 'CXX': /usr/x86_64-pc-cygwin/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o] ==> [/usr/lib/crt0.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o] ==> [/usr/lib/default-manifest.o]

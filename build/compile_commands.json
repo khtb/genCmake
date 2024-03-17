@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/workset/genCmake/build",
+  "command": "gcc  -ID:/workset/genCmake/include  -o CMakeFiles/khattab.exe.dir/project/src/file1.c.obj -c D:/workset/genCmake/project/src/file1.c",
+  "file": "D:/workset/genCmake/project/src/file1.c",
+  "output": "CMakeFiles/khattab.exe.dir/project/src/file1.c.obj"
+},
+{
+  "directory": "D:/workset/genCmake/build",
+  "command": "gcc  -ID:/workset/genCmake/include  -o CMakeFiles/khattab.exe.dir/project/src/main.c.obj -c D:/workset/genCmake/project/src/main.c",
+  "file": "D:/workset/genCmake/project/src/main.c",
+  "output": "CMakeFiles/khattab.exe.dir/project/src/main.c.obj"
+}
+]

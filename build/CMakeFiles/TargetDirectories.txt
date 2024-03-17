@@ -1,0 +1,3 @@
+D:/workset/genCmake/build/CMakeFiles/khattab.exe.dir
+D:/workset/genCmake/build/CMakeFiles/edit_cache.dir
+D:/workset/genCmake/build/CMakeFiles/rebuild_cache.dir
