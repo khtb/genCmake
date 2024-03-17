@@ -1,9 +1,8 @@
 
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.5)
 
 project(MyProject)
 SET(CMAKE_SYSTEM_NAME Generic)
-
 
 # Define the C compiler
 set(CMAKE_C_COMPILER gcc)
